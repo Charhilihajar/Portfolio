@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktseite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>let's work together. Get in touch!</h2>
+                <form id="form" action="/formsubmit">
+                    <div class="input-control">
+                        <input id="ihrname" class="field" placeholder="Ihr Name*" type="text">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <input id="email" class="field" placeholder="Ihre Email Adresse*" type="text">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <input id="telefon" class="field" placeholder="Telefon*" type="tel">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <textarea id="nachricht" class="field"
+                            placeholder="Erzählen Sie mir mehr über Ihr Projekt*..."></textarea>
+                        <div class="error"></div>
+                    </div>
+                    <button class="btn" type="submit">Absenden</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script href="script.js"></script> -->
+
+</body>
+
+</html>
